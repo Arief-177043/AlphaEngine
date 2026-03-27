@@ -1,8 +1,8 @@
 # 🚀 AlphaEngine AI – Intelligent Market Decision Engine
 
-**From Signals to Smart Decisions**
+### **From Signals to Smart Decisions**
 
-AlphaEngine is a multi-agent AI system designed for Indian retail investors.
+AlphaEngine is a multi-agent AI-powered platform designed for Indian retail investors.
 It transforms raw stock market data into **actionable, explainable, and decision-ready insights**.
 
 ---
@@ -15,7 +15,7 @@ It transforms raw stock market data into **actionable, explainable, and decision
 * Incomplete analysis
 * Gut-based decisions
 
-Result: Missed opportunities & poor risk management.
+**Result:** Missed opportunities & poor risk management.
 
 ---
 
@@ -26,7 +26,7 @@ AlphaEngine acts as a **real-time AI decision engine** that:
 * Detects market signals
 * Explains them in plain English
 * Suggests actions with confidence
-* Helps investors simulate decisions before investing
+* Simulates outcomes before investing
 
 ---
 
@@ -34,11 +34,11 @@ AlphaEngine acts as a **real-time AI decision engine** that:
 
 ### 🚀 Opportunity Radar
 
-* Detects:
+Detects:
 
-  * Volume spikes
-  * Breakouts / breakdowns
-  * Trend reversals
+* Volume spikes
+* Breakouts / breakdowns
+* Trend reversals
 
 ---
 
@@ -50,81 +50,80 @@ AlphaEngine acts as a **real-time AI decision engine** that:
 
 ---
 
-### 🧠 AI Decision Engine (Unique)
+### 🧠 AI Decision Engine *(Unique)*
 
-* Suggests:
+Provides:
 
-  * BUY / HOLD / SELL
-* Includes:
-
-  * Confidence score
-  * Risk level
-  * Reasoning
+* BUY / HOLD / SELL suggestions
+* Confidence score
+* Risk level
+* Clear reasoning
 
 ---
 
-### 🔮 Trade Simulator (What-if Engine)
+### 🔮 Trade Simulator *(What-if Engine)*
 
-* Simulates:
+Simulates:
 
-  * Bullish scenario
-  * Bearish scenario
-* Shows probability-based outcomes
+* Bullish scenario
+* Bearish scenario
+
+Displays probability-based outcomes for better decision-making.
 
 ---
 
-### ❗ Missed Opportunity Detector (Unique)
+### ❗ Missed Opportunity Detector *(Unique)*
 
-* Highlights:
+Highlights missed profitable trades
 
-  * Trades user could have taken
-* Example:
+**Example:**
 
-  * “INFY breakout → +3.2% gain missed”
+> “INFY breakout → +3.2% gain missed”
 
 ---
 
 ### 💼 Portfolio Intelligence
 
-* Detects:
+Analyzes:
 
-  * Sector overexposure
-  * Weak momentum stocks
-* Provides:
+* Sector overexposure
+* Weak momentum stocks
 
-  * Actionable fixes
-  * Risk classification
+Provides:
+
+* Actionable fixes
+* Risk classification
 
 ---
 
 ### 🧠 AI Explanation Layer
 
-* Converts technical signals into:
+Converts technical signals into:
 
-  * Simple insights
-  * Clear reasoning
+* Simple insights
+* Clear reasoning
 
 ---
 
 ### ⚡ Real-Time Alert Engine
 
-* Streams:
+Streams:
 
-  * Market events
-  * Pattern detections
+* Market events
+* Pattern detections
 
 ---
 
 ## 🏗️ Multi-Agent Architecture
 
-AlphaEngine uses a modular agent-based system:
+AlphaEngine follows a modular agent-based architecture:
 
 * **Data Agent** → Fetches stock data
 * **Signal Agent** → Detects anomalies
-* **Technical Agent** → Pattern analysis
-* **Portfolio Agent** → Risk analysis
-* **Explanation Agent** → AI insights
-* **Alert Agent** → Real-time updates
+* **Technical Agent** → Performs pattern analysis
+* **Portfolio Agent** → Evaluates portfolio risk
+* **Explanation Agent** → Generates AI insights
+* **Alert Agent** → Streams real-time alerts
 
 ---
 
@@ -141,13 +140,13 @@ AlphaEngine uses a modular agent-based system:
 
 * ⏱️ Reduces research time: **2 hrs → 10 mins**
 * 📈 Improves decision clarity with explainable AI
-* 🎯 Helps investors act with confidence
+* 🎯 Enables confident investment decisions
 
 ---
 
 ## 🚀 Setup Instructions
 
-### Backend
+### 🔹 Backend
 
 ```bash
 python -m venv .venv
@@ -156,15 +155,19 @@ pip install -r backend/requirements.txt
 python backend/main.py
 ```
 
+👉 Runs on: http://localhost:8000
+
 ---
 
-### Frontend
+### 🔹 Frontend
 
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
+
+👉 Runs on: http://localhost:5173
 
 ---
 
@@ -188,12 +191,14 @@ set OPENAI_API_KEY="your_key_here"
 
 ## 🏆 Why AlphaEngine Stands Out
 
-* Not just a dashboard → **Decision Engine**
-* Not just signals → **Explainable AI**
-* Not just analysis → **Actionable insights**
+* 🚀 Not just a dashboard → **AI Decision Engine**
+* 🧠 Not just signals → **Explainable AI**
+* 🔮 Simulates outcomes before investing
+* ❗ Highlights missed opportunities
+* 💼 Acts like a **personal financial advisor**
 
 ---
 
 ## 👨‍💻 Author
 
-Developed as part of ET AI Hackathon Phase 2.
+Developed as part of **ET AI Hackathon Phase 2**
