@@ -1,69 +1,199 @@
-# AI Opportunity Radar for Indian Investors
+# 🚀 AlphaEngine AI – Intelligent Market Decision Engine
 
-An intelligent multi-agent system that analyzes stock market data and generates actionable investment signals for retail investors in India. 
+**From Signals to Smart Decisions**
 
-## Features
-- **Opportunity Radar**: Scans NSE stocks (using yfinance with a robust mock fallback) to detect unusual volume spikes, price breakouts, and sudden down-trend reversals.
-- **Chart Pattern Intelligence**: Detects Support & Resistance lines and Moving Average crossovers (20-day vs 50-day), translating technical jargon into plain English.
-- **Portfolio Intelligence**: Analyzes manually input portfolios focusing on sector concentration and risk profiling.
-- **AI Explanation Layer**: Uses a simulated LLM explanation agent (with an OpenAI integration ready if `OPENAI_API_KEY` is provided) to convert raw signals into human-readable insights.
-- **Simulated real-time alerts**: An alert engine pushes high-severity market events continuously to the dashboard.
-
-## Multi-Agent Architecture
-The system consists of the following isolated agents communicating via a FastAPI orchestrator:
-- **Data Agent**: Fetches historical stock data.
-- **Signal Agent**: Analyzes volume/price anomalies.
-- **Technical Analysis Agent**: Identifies support/resistance and trend momentum.
-- **Portfolio Agent**: Runs risk analysis on the user's current holdings.
-- **Explanation Agent**: Wraps findings in an LLM prompt and gives plain-English suggestions.
-- **Alert Agent**: Generates simulated real-time market warnings.
-
-## Tech Stack
-- **Frontend**: React (Vite + TypeScript) with a custom sleek, modern dark UI using vanilla CSS.
-- **Backend**: Python (FastAPI).
-- **Data**: yfinance API (with built-in randomized mock data generator for demo stability).
-
-## Impact Metrics
-- **Research Time**: Reduces technical analysis time from 2 hours to under 10 minutes.
-- **Signal Clarity**: Translates complex indicators into easy-to-understand plain-English instructions.
+AlphaEngine is a multi-agent AI system designed for Indian retail investors.
+It transforms raw stock market data into **actionable, explainable, and decision-ready insights**.
 
 ---
 
-## Setup Instructions
+## 🧠 Problem
 
-### 1. Start the Backend
+14+ crore Indian investors rely on:
+
+* Tips
+* Incomplete analysis
+* Gut-based decisions
+
+Result: Missed opportunities & poor risk management.
+
+---
+
+## 💡 Solution
+
+AlphaEngine acts as a **real-time AI decision engine** that:
+
+* Detects market signals
+* Explains them in plain English
+* Suggests actions with confidence
+* Helps investors simulate decisions before investing
+
+---
+
+## 🔥 Key Features
+
+### 🚀 Opportunity Radar
+
+* Detects:
+
+  * Volume spikes
+  * Breakouts / breakdowns
+  * Trend reversals
+
+---
+
+### 📊 Chart Pattern Intelligence
+
+* Support & Resistance detection
+* Moving average crossovers
+* Simplified explanations (no jargon)
+
+---
+
+### 🧠 AI Decision Engine (Unique)
+
+* Suggests:
+
+  * BUY / HOLD / SELL
+* Includes:
+
+  * Confidence score
+  * Risk level
+  * Reasoning
+
+---
+
+### 🔮 Trade Simulator (What-if Engine)
+
+* Simulates:
+
+  * Bullish scenario
+  * Bearish scenario
+* Shows probability-based outcomes
+
+---
+
+### ❗ Missed Opportunity Detector (Unique)
+
+* Highlights:
+
+  * Trades user could have taken
+* Example:
+
+  * “INFY breakout → +3.2% gain missed”
+
+---
+
+### 💼 Portfolio Intelligence
+
+* Detects:
+
+  * Sector overexposure
+  * Weak momentum stocks
+* Provides:
+
+  * Actionable fixes
+  * Risk classification
+
+---
+
+### 🧠 AI Explanation Layer
+
+* Converts technical signals into:
+
+  * Simple insights
+  * Clear reasoning
+
+---
+
+### ⚡ Real-Time Alert Engine
+
+* Streams:
+
+  * Market events
+  * Pattern detections
+
+---
+
+## 🏗️ Multi-Agent Architecture
+
+AlphaEngine uses a modular agent-based system:
+
+* **Data Agent** → Fetches stock data
+* **Signal Agent** → Detects anomalies
+* **Technical Agent** → Pattern analysis
+* **Portfolio Agent** → Risk analysis
+* **Explanation Agent** → AI insights
+* **Alert Agent** → Real-time updates
+
+---
+
+## ⚙️ Tech Stack
+
+* **Frontend:** React (Vite + TypeScript)
+* **Backend:** FastAPI (Python)
+* **Data:** yfinance + mock fallback
+* **AI Layer:** OpenAI-ready
+
+---
+
+## 📊 Impact
+
+* ⏱️ Reduces research time: **2 hrs → 10 mins**
+* 📈 Improves decision clarity with explainable AI
+* 🎯 Helps investors act with confidence
+
+---
+
+## 🚀 Setup Instructions
+
+### Backend
+
 ```bash
-# Create virtual environment and install dependencies
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r backend/requirements.txt
-
-# Run the FastAPI server
 python backend/main.py
 ```
-The backend API will run on `http://localhost:8000`.
 
-### 2. Start the Frontend
-Open a new terminal and run:
+---
+
+### Frontend
+
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
-The React frontend will be accessible at `http://localhost:5173`.
 
-### (Optional) Enable OpenAI Mode
-To enable real OpenAI processing for the Explanation Agent:
-Set your OpenAI API Key as an environment variable before running the backend:
+---
+
+## 🔑 Optional: OpenAI Integration
+
 ```bash
-export OPENAI_API_KEY="sk-..." # Mac/Linux
-set OPENAI_API_KEY="sk-..." # Windows CMD
-$env:OPENAI_API_KEY="sk-..." # Windows PowerShell
+set OPENAI_API_KEY="your_key_here"
 ```
 
-## Demo Flow
-1. Load the web app. You will see a modern dashboard.
-2. Enter a stock ticker like `RELIANCE.NS` or `TCS.NS` and click **Scan Now**.
-3. View the generated signals, technical overview, and the AI Insight box at the bottom.
-4. On the right, see simulated real-time market alerts streaming in.
-5. In the Portfolio Intelligence panel, input a mock portfolio (e.g., heavily weighting the `IT` sector) and click **Analyze Risk** to view the risk profile and warnings about sector concentration.
+---
+
+## 🎬 Demo Flow
+
+1. Login to AlphaEngine
+2. Scan stock (e.g., RELIANCE.NS)
+3. View signals & AI insights
+4. Check missed opportunities
+5. Analyze portfolio risk
+
+---
+
+## 🏆 Why AlphaEngine Stands Out
+
+* Not just a dashboard → **Decision Engine**
+* Not just signals → **Explainable AI**
+* Not just analysis → **Actionable insights**
+
+---
+
+## 👨‍💻 Author
+
+Developed as part of ET AI Hackathon Phase 2.
